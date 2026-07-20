@@ -9,11 +9,11 @@ public class P4 {
 		int n = sc.nextInt();
 		
 		int[][] arr = new int[n][n];
-//	    for(int[] i : arr) {
-//	    	   for(int j : i) {
-//	    		   j = sc.nextInt();
-//	    	   }
-//	    }
+	    for(int[] i : arr) {
+	    	   for(int j : i) {
+	    		   j = sc.nextInt();
+	    	   }
+	    }
 		
 		for(int i = 0; i<arr.length; i++) {
 			for(int j = 0; j<arr[i].length; j++) {
@@ -21,12 +21,12 @@ public class P4 {
 			}
 		}
 		
-//		for(int i = 0; i<arr.length; i++) {
-//			for(int j = 0; j<arr[i].length; j++) {
-//				System.err.print(arr[i][j]+" ");
-//			}
-//			System.out.println();
-//		}
+		for(int i = 0; i<arr.length; i++) {
+			for(int j = 0; j<arr[i].length; j++) {
+				System.err.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
 	    for(int[] i : arr) {
 	    	   for(int j : i) {
 	    		  System.out.print(j+" ");
