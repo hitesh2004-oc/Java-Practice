@@ -1,7 +1,7 @@
 package PracticeOfLambdaExp;
 
 //...........[Easy Question]...........//
-//(2)Check if Number is Even/Odd//
+//....(2)Check if Number is Even/Odd....//
 
 interface I2{
 	void checkWeatherOfNumber(int num);
