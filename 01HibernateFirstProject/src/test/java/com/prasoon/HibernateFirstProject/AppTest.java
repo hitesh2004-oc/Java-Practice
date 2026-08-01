@@ -12,7 +12,6 @@ public class AppTest
 {
     /**
      * Create the test case
-     *
      * @param testName name of the test case
      */
     public AppTest( String testName )
@@ -29,10 +28,10 @@ public class AppTest
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigourous Test :-) usefull
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue(true);
     }
 }
