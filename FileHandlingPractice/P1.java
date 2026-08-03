@@ -7,6 +7,7 @@ public class P1 {
 		     
 //            FileWriter fw = new FileWriter("Hello.txt");
 //             File f1 = new File("Hello/Hello.txt");
+		// For Create New File 
 //             f1.createNewFile();
 //		      fw.write("Hello World\n");
 //		      fw.write("Spring Boot");
@@ -15,6 +16,7 @@ public class P1 {
 //             f.mkdir();
 //             f.createNewFile();
              System.out.println("Done");
+		// This is For Read All data in the file
 //             FileReader fr = new FileReader("Hello.txt");
 //             int i =  fr.read();
 //             while(i>0) {
