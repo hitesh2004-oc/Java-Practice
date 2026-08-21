@@ -30,8 +30,9 @@ public class Test {
 //			System.out.print((char)i);
 //			i =	fr.read();
 //		}
-		BufferedReader br = new BufferedReader(fr);
-		String line = br.readLine();
+		// For Read the Data into File
+		BufferedReader br = new BufferedReader(fr); // Best way to Read File
+		String line = br.readLine(); // Normal way to Read File
 		while(line != null) {
 			System.out.println(line);
 			line = br.readLine();
