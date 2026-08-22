@@ -9,12 +9,13 @@ public class C {
 	hm.put(1, "A");
 	hm.put(2, "B");
 	hm.put(3, "C");
-	
-//	Iterator<Integer> i = (Iterator<Integer>) hm.entrySet();
-//	while(i.hasNext()) {
-//		Integer s = i.next();
-//		String a = hm.get(s);
-//		System.out.println(s +": "+a);
-//	  }
+
+		// Using This for Trevase the HashMap
+	Iterator<Integer> i = (Iterator<Integer>) hm.entrySet();
+	while(i.hasNext()) {
+		Integer s = i.next();
+		String a = hm.get(s);
+		System.out.println(s +": "+a);
+	  }
 	}
 }
